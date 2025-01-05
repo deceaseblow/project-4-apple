@@ -214,19 +214,57 @@ nav ul {
     padding: 40px 0;
 }
 .newphoria-header img{
-    scale: 1.5;
-    margin-top: 80px;
+    width:1652px;
+    height: 505px;
+    margin-top: 30px;
+   
+}
+#newphoria{
+    margin-bottom:100px;
+}
+hr{
+    border: none;
+    height: 2px;
+    color: white;
+}
+#love-iphone{
+    height: 100vh;
+    background-color: #fbfbfb;
+}
+.love-iphone-whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.love-iphone-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;   
+}
+.love-iphone-left h4{   
+    font: 18.7px Arial;
+}
+.love-iphone-left h1{
+    font: 51px Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:#1E3791;
+}
+.love-iphone-left p{
+    font: 20.4px Arial, Helvetica, sans-serif;
+}
+.love-iphone-whole img{
+    height: 900px;
 }
 
 
 
-
 @media screen and (max-width: 768px) {
-    .menu-icon {
+    /*.menu-icon {
         display: flex;
         padding-left: 10px; 
         padding-top: 3px;
-    }
+    } */    
     .container{
         width: 80%;
     }
@@ -263,4 +301,11 @@ nav ul {
     .menu-bar{
         display: none;
     }
+    .love-iphone-whole{
+        flex-direction: column;
+    }
+    hr{
+       height: 0;
+    }
+    
 }
