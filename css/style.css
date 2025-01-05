@@ -167,7 +167,7 @@ nav ul {
    position:absolute;
    top:-40px;
    left:-100px;
-   scale: 0.88;
+   scale: 0.9;
 }
 .titanium-bot{
     padding:70px 0;
@@ -214,7 +214,7 @@ nav ul {
     padding: 40px 0;
 }
 .newphoria-header img{
-    scale: 1.6;
+    scale: 1.5;
     margin: 70px;
 }
 
