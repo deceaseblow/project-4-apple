@@ -222,11 +222,6 @@ nav ul {
 #newphoria{
     margin-bottom:100px;
 }
-hr{
-    border: none;
-    height: 2px;
-    color: white;
-}
 #love-iphone{
     height: 100vh;
     background-color: #fbfbfb;
@@ -306,6 +301,22 @@ hr{
 #guided-tour{
     margin: 30px 20px;
 }
+#right-for-you h1{
+    font: 51px  Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    font-weight:600;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.phone-img{
+    width: 200px;
+}
+.colors-img{
+    width:100px;
+}
     
 
 
@@ -355,9 +366,6 @@ hr{
     .love-iphone-whole{
         flex-direction: column;
     }
-    hr{
-       height: 0;
-    }
     .guided-tour-header{
         position: static;
         display: flex;
@@ -401,7 +409,7 @@ hr{
 
 @media screen and (max-width: 480px) {
     .guided-tour-img img {
-        width: 70%; /* Shrink the image even further for very small screens */
-        max-width: 300px; /* Restrict maximum width */
+        width: 70%; 
+        max-width: 300px; 
     }
 }
