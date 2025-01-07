@@ -32,6 +32,24 @@
     padding-left: 0; 
 }
 
+#more-of-your-phone{
+    padding: 40px 0;
+}
+footer{
+    padding: 10px 0 ;
+}
+.footer-p{
+    color:#000000bd;
+    font: 15px Arial, Helvetica, sans-serif;
+}
+.footer-lastt{
+    display: flex;
+    justify-content: space-between;
+    h3{
+        color:#000000bd;
+        font: 15px Arial, Helvetica, sans-serif; 
+    }
+}
 
 
       @media (max-width: 647px) {
