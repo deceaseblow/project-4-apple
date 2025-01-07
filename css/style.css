@@ -301,6 +301,9 @@ nav ul {
 #guided-tour{
     margin: 30px 20px;
 }
+#right-for-you{
+    padding-bottom: 30px;
+}
 #right-for-you h1{
     font: 51px  Arial, Helvetica, sans-serif;
     text-align: center;
@@ -317,7 +320,135 @@ nav ul {
 .colors-img{
     width:100px;
 }
-    
+.p-red{
+    color:rgb(109, 3, 3);
+}
+.cards{
+    padding: 50px 0;;
+    display: flex;
+    flex-wrap: wrap;   
+    gap:5px;
+}
+.card-1{
+    padding-top: 5.3px;  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    max-width: 400px;
+}
+.card h2{
+    font: 17px Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.card h5{
+    font: 17px Arial, Helvetica, sans-serif;
+}
+.card h6{
+    font: 13.6px Arial, Helvetica, sans-serif;
+}
+.card p{
+     font: 11.9px Arial, Helvetica, sans-serif;
+}
+.card hr {
+    border: none;
+    background-color: #7c7979;
+    height: 2px; 
+    width: 200px;
+}
+.phone-img,
+.colors-img {
+    width: 50%; 
+    height: auto;
+    object-fit: cover; 
+}
+.icons{
+    width:40px;
+}
+.card-lower-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.card-lower-parts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.card-lower-parts h4{
+    font: 24px Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.right-for-you-links{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#ways-to-save{
+    padding: 30px 0;
+    background-color: #f2f2f2;
+}
+#ways-to-save h2{
+    font: 47.6px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.ways-to-save-cards{
+    padding-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ways-to-save-first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.card-2{
+    max-width: 300px;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding:20px;
+    background-color: #fff;
+}
+.card-2-last{
+    padding-top:20px;
+    justify-content: space-between;
+}
+.card-2 h1{
+    font: 27px Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.card-2-img-1{
+    height:20vh;
+    background: url(../img/savei_phone.jpg)center / contain no-repeat;
+}
+.card-2-img-2{
+    height:20vh;
+    background: url(../img/appleemoji.jpeg)center / contain no-repeat;
+}
+.card-2-img-3{
+    height: 25vh;
+    background: url(../img/aplepphone.jpeg)center / contain no-repeat;
+}
+.card-2 p{
+    text-align: center;
+    font: 17px Arial, Helvetica, sans-serif;
+    color:#7c7979;
+}
+
+
 
 
 
@@ -326,7 +457,7 @@ nav ul {
         display: flex;
         padding-left: 10px; 
         padding-top: 3px;
-    } */    
+    } */   
     .container{
         width: 80%;
     }
