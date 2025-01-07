@@ -533,6 +533,13 @@ nav ul {
         height: auto; 
         border-radius: 0;
     }
+    #love-iphone{
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    .love-iphone-whole{
+        gap: 40px;
+    }
     
     
 }
