@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 }
-ul {
+.menu-bar{
     display:flex;
     gap:9px;
 }
@@ -18,7 +18,7 @@ ul {
     display: flex;
     gap:20px;
 }
-ul li{
+.menu-bar li{
     font: 11.22px Arial, Helvetica, sans-serif;
     padding: 5px;
     cursor: pointer;
@@ -34,7 +34,7 @@ nav{
     background-color: #f2f2f2;
     padding: 12px 0;
 }
-nav ul {
+nav .menu-bar {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -42,10 +42,10 @@ nav ul {
     padding: 0;
   }
 
-  nav ul li {
+  nav .menu-bar li {
     position: relative;
   }
-  nav ul li::after {
+  nav .menu-bar li::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -57,7 +57,7 @@ nav ul {
     transform: translateX(-50%);
   }
 
-  nav ul li:hover::after {
+  nav .menu-bar li:hover::after {
     width: 100%;
   }
 
@@ -759,6 +759,19 @@ nav ul {
   
 }
 
+.apple-one-reversed{
+    display: flex;
+    flex-direction: row-reverse;
+    height:55vh;
+}
+.apple-one-left-1{
+    background: url(../img/research_app.jpg)center/contain no-repeat ;
+}
+.apple-one-right-1{
+    display: flex;
+    flex-basis: 70%;
+}
+
 .apple-tv-music-card-2{
     background-color: #fff;
    h1,p{
@@ -774,6 +787,38 @@ nav ul {
     height:50vh;
     width:100%;
     background: url(../img/music_bg.jpg)center/cover;
+}
+.apple-tv-music-btm-3{
+    height:50vh;
+    width:100%;
+    background: url(../img/fitness_bg.jpg)center/cover;
+}
+.apple-tv-music-btm-4{
+    height:50vh;
+    width:100%;
+    background: url(../img/arcade_bg.png)center/cover;
+}
+.apple-tv-music-btm-5{
+    height:50vh;
+    width:100%;
+    background: url(../img/news_bg.jpeg)center/cover;
+}
+.apple-tv-music-btm-6{
+    height:50vh;
+    width:100%;
+    background: url(../img/gift_bg.jpg)center/cover;
+}
+
+.p-s{
+    font: 17px Arial, Helvetica, sans-serif;
+    color: #0000007a;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.p-list{
+    list-style-type: decimal;
 }
 
 
@@ -820,7 +865,18 @@ nav ul {
     .apple-tv-music-btm-2{
         background: url(../img/music_bg.jpg)center/contain no-repeat;
     }
-
+    .apple-tv-music-btm-3{
+        background: url(../img/fitness_bg.jpg)center/contain no-repeat;
+    }
+    .apple-tv-music-btm-4{
+        background: url(../img/arcade_bg.png)center/contain no-repeat;
+    }
+    .apple-tv-music-btm-5{
+        background: url(../img/news_bg.jpeg)center/contain no-repeat;
+    }
+    .apple-tv-music-btm-6{
+        background: url(../img/gift_bg.jpg)center/contain no-repeat;
+    }
 
 }
 

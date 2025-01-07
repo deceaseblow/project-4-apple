@@ -1,0 +1,96 @@
+.accordion{display: none;}
+.footer-thingz {
+    display: block;
+  }
+.simple-list{
+    display: flex;
+    justify-content:space-around;
+    color:#000000bd;
+}
+.simple-list h4{
+    font: 16.32px Arial, Helvetica, sans-serif;
+}
+.simple-list ul li{
+    font: 14px Arial, Helvetica, sans-serif;
+}
+.simple-list-row{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.iphone-linkk{
+    margin: 0; 
+    padding-left: 0; 
+    h1{font:  19px Arial, Helvetica, sans-serif;}
+}
+
+.simple-list-row ul {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    margin: 0; 
+    padding-left: 0; 
+}
+
+
+
+      @media (max-width: 647px) {
+        .accordion {
+          display: block; 
+        }
+        .simple-list {
+          display: none;
+        }
+.accordion-header{
+    background-color: white;
+}
+.panelsStayOpen-headingTwo{
+    background-color: white;
+}
+
+.accordion-button.collapsed {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color: #ffffff; 
+  }
+  
+ 
+  .accordion-button:not(.collapsed) {
+    background-color: #ffffff; 
+    color: #fff; 
+    border-color: #ffffff;
+  }
+  
+  .accordion-body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .accordion-button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  .accordion-item .accordion-collapse.show .accordion-body {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+  }
+  .accordion-item .accordion-collapse.show {
+    background-color: #d1ecf1;
+  }
+ 
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); 
+  }
+
+.accordion-item .accordion-button:focus {
+    outline: none; 
+    box-shadow: none;
+  }
+  
+  
+  .accordion-item .accordion-button:focus {
+    outline: none; 
+  }
+  
+ }
+

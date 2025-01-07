@@ -1,0 +1,72 @@
+.accordion{display: none;}
+*{
+    list-style: none;
+}
+.footer-thingz {
+    display: block;
+  }
+
+      @media (max-width: 647px) {
+        .accordion {
+          display: block; 
+        }
+        .simple-list {
+          display: none;
+        }
+.accordion-header{
+    background-color: white;
+}
+.panelsStayOpen-headingTwo{
+    background-color: white;
+}
+
+.accordion-button.collapsed {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color: #ffffff; 
+  }
+  
+ 
+  .accordion-button:not(.collapsed) {
+    background-color: #ffffff; 
+    color: #fff; 
+    border-color: #ffffff;
+  }
+  
+  .accordion-body {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .accordion-button {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  .accordion-item .accordion-collapse.show .accordion-body {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+  }
+  .accordion-item .accordion-collapse.show {
+    background-color: #d1ecf1;
+  }
+ 
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); 
+  }
+
+.accordion-item .accordion-button:focus {
+    outline: none; 
+    box-shadow: none;
+  }
+  
+  
+  .accordion-item .accordion-button:focus {
+    outline: none; 
+  }
+  
+  
+
+
+
+      }
+
