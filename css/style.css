@@ -218,10 +218,10 @@ nav ul {
 }
 
 .newphoria-img img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block; /* Removes inline spacing from images */
-    object-fit: cover; /* Ensures image scales properly within its container */
+    display: block; 
+    object-fit: cover; /
 }
 
 .newphoria-header {
@@ -420,10 +420,17 @@ nav ul {
     font: 47.6px Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+#ways-to-save h3{
+    font: 47.6px Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
 .ways-to-save-cards{
     padding-top:30px;
     display: flex;
     flex-wrap: wrap;
+    gap:40px;
 }
 .ways-to-save-first-row{
     display: flex;
@@ -444,7 +451,7 @@ nav ul {
     background-color: #fff;
 }
 .card-2-last{
-    padding-top:20px;
+    padding-top:40px;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -462,7 +469,7 @@ nav ul {
     background: url(../img/appleemoji.jpeg)center / contain no-repeat;
 }
 .card-2-img-3{
-    height: 25vh;
+    height: 30vh;
     background: url(../img/aplepphone.jpeg)center / contain no-repeat;
 }
 .card-2 p{
@@ -475,9 +482,347 @@ nav ul {
     flex-wrap: wrap;
 }
 .best-place-to-buy{
-    background: url(../img/applebg6.jpeg);
+    height:80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/applebg6.jpeg)center/cover;
+    margin: 20px 0;
+}
+@media screen and (max-width: 768px) {
+    .best-place-to-buy{
+        background: url(../img/applebg6.jpeg)center/cover no-repeat;
+}
+    .best-to-buy-header{
+        overflow: hidden;
+    }
+    .best-to-buy-header h1{
+        width: fit-content;
+        text-align: center;
+    }
+    .mage-safe-reverse{
+        flex-direction: column-reverse;
+    }
+    .best-to-buy-header p{
+        width:360px;
+        text-align: center;
+        padding-top:0;
+    }
 }
 
+
+.best-to-buy-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top:50px;
+    overflow: hidden;
+    gap:20px;
+
+}
+
+.container-3{
+    width:490px;
+    margin: 0 auto;
+}
+
+.best-to-buy-header h1{
+    font: 47.6px Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.best-to-buy-header p{
+    font: 17px Arial, Helvetica, sans-serif;
+}
+.mag-safe-height-1{
+    height: 50vh;
+}
+@media screen and (max-width: 768px) {
+    .mag-safe-reverse{
+        flex-direction: column-reverse;
+    }
+    .mag-safe-direction{
+        flex-direction: column;
+    }
+}
+
+.mag-safe{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    gap:20px;
+    padding:60px;
+}
+.mag-safe-left{
+    text-align: center;
+    flex-basis:40%;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mag-safe h1{
+    font: 47.6px Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.mag-safe p{
+    font: 17px Arial, Helvetica, sans-serif;
+}
+.mag-safe-right{
+    margin-top:20px;
+    height:40vh;
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/applephones.jpeg)center/contain no-repeat;
+}
+.mag-safe-right-1{
+    height:40vh;
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/appleanahtarlik.jpeg)center/contain no-repeat;
+}
+.mag-safe-left-1{
+    text-align: center;
+    flex-basis:60%;
+    display: flex;
+    gap:7px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mag-safe-links{
+    display: flex;
+    gap:20px;
+}
+.mag-safe-2{
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    .mag-safe-2{
+        height:50vh;
+    }
+}
+.mag-safe-right-2{
+    height:50vh;
+    width: 100%;
+    background: url(../img/applebg9.jpeg)center/cover;
+}
+.card-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    max-width: 350px;
+    gap:10px;
+}
+.card-4 h1{
+    font: 22px Arial, Helvetica, sans-serif;
+}
+.card-4 p{
+    font: 17px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.shop-cards{
+    margin: 20px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mag-safe-right-3{
+    overflow: hidden;
+    height:50vh;
+    width: 100%;
+    background: url(../img/ios17.jpg)center/cover;
+}
+.mag-safe-right-4{
+    overflow: hidden;
+    height:60vh;
+    width: 100%;
+    background: url(../img/applebg6.jpeg)center/cover;
+}
+.mag-safe-right-5{
+    overflow: hidden;
+    height:80vh;
+    width: 100%;
+    background: url(../img/applebg.jpeg)center/cover;
+}
+.mag-safe-right-6{
+    overflow: hidden;
+    height:80vh;
+    width: 100%;
+    background: url(../img/privacy.jpg)center/cover;
+}
+.mag-safe-right-7{
+    overflow: hidden;
+    height:80vh;
+    width: 100%;
+    background: url(../img/privacy.jpg)center/cover;
+}
+
+.mag-safe-right-8 {
+    overflow: hidden;
+    height:80vh;
+    width: 100%;
+    background: url(../img/privacy.jpg)center/cover;
+}
+
+
+.mag-safe{
+    position: relative;
+}
+.mag-safe-left-move{
+    position: absolute;
+    top: 40px;
+    width: 400px;
+}
+.mag-safe-3{
+    width: 38%;
+    height: 60vh;
+    h1{
+        font-weight: 500;
+    }
+}
+.switching-privacy{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.apple-one-right h1{
+    font-weight: 800;
+    font: 44px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.apple-one-right p{
+    font: 23.4px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.apple-one-left{
+    height:50vh;
+    width:100%;
+    background: url(../img/applebg2.jpeg)center/contain no-repeat;
+}
+.apple-one-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 60%;
+    gap:20px;
+}
+.apple-one-links{
+    display: flex;
+    gap:10px;
+}
+.apple-one{
+    display: flex;
+    gap:20px;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+#more-of-your-phone{
+    background-color: #f2f2f2;
+}
+.apple-one-tv-music{
+    display: flex;
+    flex-wrap: wrap;
+    gap:23px;
+    margin: 30px 0;
+
+}
+.apple-tv-music-card{
+    padding: 20px;
+    width:45%;
+    background-color: #000; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+    h1{
+        color:white;
+        font-weight: 800;
+        font: 44px Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    p{
+        color:white;
+        font: 23.4px Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+  
+}
+
+.apple-tv-music-card-2{
+    background-color: #fff;
+   h1,p{
+    color:black;
+   }
+}
+.apple-tv-music-btm{
+    height:50vh;
+    width:100%;
+    background: url(../img/tv+_bg.png)center/cover;
+}
+.apple-tv-music-btm-2{
+    height:50vh;
+    width:100%;
+    background: url(../img/music_bg.jpg)center/cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mag-safe-right-2{
+    background: url(../img/applebg9.jpeg)center/contain no-repeat;
+    }
+    .mag-safe-right-3{
+    background: url(../img/ios17.jpg)center/contain no-repeat;
+    }
+    .mag-safe-right-4{
+        background: url(../img/applebg6.jpeg)center/contain no-repeat;
+    }
+    .mag-safe-right-5{
+        background: url(../img/applebg6.jpeg)center/contain no-repeat;
+    }
+    .mag-safe-right-6{
+        background: url(../img/privacy.jpg)center/contain no-repeat;
+    }
+    .mag-safe-3{
+        width:100%;
+    }
+    .mag-safe{
+        position: static;
+
+    }
+    .mag-safe-left-move{
+        position: static;
+    }
+    .apple-one-left{
+        display: none;
+    }
+    .apple-one-right{
+       flex-basis: 100%;
+    }
+    .apple-tv-music-card{
+        width:100%;
+        height:60vh;
+        overflow: hidden;
+    }
+    .apple-tv-music-btm{
+        background: url(../img/tv+_bg.png)center/contain no-repeat;
+    }
+    .apple-tv-music-btm-2{
+        background: url(../img/music_bg.jpg)center/contain no-repeat;
+    }
+
+
+}
 
 
 
@@ -488,6 +833,15 @@ nav ul {
         padding-left: 10px; 
         padding-top: 3px;
     } */   
+     .mag-safe-right-3{
+        display: none;
+     } 
+    .mag-safe-height-2{
+        height:75vh;
+    }
+     .mag-safe-height{
+        height:10vh;
+     }
     .container{
         width: 80%;
     }
