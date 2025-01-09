@@ -14,8 +14,26 @@
 .menu-icon{
     display: none;
 }
+.menu-icon-btn{
+    border: none;
+}
+@media (max-width: 768px) {
+    .menu-icon{
+        display: inline-block;
+    }
+
+}
+.card-11{
+    display: flex;
+}
+.menu-icon button{
+    border: none;
+}
+
 .right-side{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap:20px;
 }
 .menu-bar li{
@@ -65,7 +83,15 @@ nav .menu-bar {
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
+
 }
+
+@media (max-width: 768px) {
+    .left-bar{
+        display: none;
+    }
+}
+
 .slider-card{
     font-family: Arial, Helvetica, sans-serif;
     h1{
@@ -122,10 +148,11 @@ nav .menu-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:15px;
     padding: 30px 0;
+    background-color: black;
    
 } 
+
 .titanium-header p, .newphoria-header h6{
     color:rgb(190, 15, 15);
     font: 13.6px  Arial, Helvetica, sans-serif;
@@ -163,14 +190,20 @@ nav .menu-bar {
 }
 .titanium-phone{
    margin: auto;
-   padding: 100px 0 0 0; 
    position:absolute;
    top:-40px;
    left:-100px;
    scale: 0.9;
 }
+@media (max-width: 768px) {
+       .titanium-phone{
+        position: static;
+       }
+       
+}
+
 .titanium-bot{
-    padding:70px 0;
+    padding:20px 0;
     position: relative;
 }
 
@@ -217,13 +250,18 @@ nav .menu-bar {
     overflow: hidden;
 }
 
-.newphoria-img img {
-    width: 100%;
+.newphoria-img{
+    width: 70%;
     height: auto;
     display: block; 
-    object-fit: cover; /
+    object-fit: cover; 
 }
-
+.love-iphone-img{
+    width: 70%;
+    height: auto;
+    display: block; 
+    object-fit: cover; 
+}
 .newphoria-header {
     display: flex;
     flex-direction: column;
@@ -244,9 +282,10 @@ nav .menu-bar {
     margin-bottom:100px;
 }
 #love-iphone{
-    height: 100vh;
+    height: 125vh;
     background-color: #fbfbfb;
-    padding-bottom: 50px;
+  overflow: hidden;
+
 }
 .love-iphone-whole{
     display: flex;
@@ -347,9 +386,22 @@ nav .menu-bar {
 .cards{
     padding: 50px 0;;
     display: flex;
-    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center; 
     gap:5px;
 }
+
+@media screen and (max-width: 768px) {
+    .cards{flex-direction: column;}
+    #love-iphone{
+    margin-bottom: 100px;
+}
+.idk-lasttt{
+    padding-top:40px;
+}
+ 
+}
+
 .card-1{
     padding-top: 5.3px;  
 }
@@ -359,6 +411,8 @@ nav .menu-bar {
     align-items: center;
     gap:10px;
     max-width: 400px;
+    border: none;
+    box-shadow: none;
 }
 .card h2{
     font: 17px Arial, Helvetica, sans-serif;
@@ -379,6 +433,19 @@ nav .menu-bar {
     height: 2px; 
     width: 200px;
 }
+.card {
+    border: none !important; /* Removes the border from the card */
+    box-shadow: none; /* Removes any default shadow */
+}
+
+.card img {
+    border: none; /* Ensures images inside the card don’t have borders */
+}
+
+hr.card-hr {
+    border: none; /* Removes borders from the custom horizontal rules */
+}
+
 .phone-img,
 .colors-img {
     width: 50%; 
@@ -429,7 +496,8 @@ nav .menu-bar {
 .ways-to-save-cards{
     padding-top:30px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
     gap:40px;
 }
 .ways-to-save-first-row{
@@ -440,7 +508,8 @@ nav .menu-bar {
 }
 .card-2{
     max-width: 300px;
-    height:50vh;
+    height: 60vh;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,6 +617,7 @@ nav .menu-bar {
     .mag-safe-direction{
         flex-direction: column;
     }
+   
 }
 
 .mag-safe{
@@ -568,6 +638,7 @@ nav .menu-bar {
     justify-content: center;
     align-items: center;
 }
+
 .mag-safe h1{
     font: 47.6px Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -620,8 +691,9 @@ nav .menu-bar {
     align-items: center;
     justify-content: center;
     padding:10px;
-    max-width: 350px;
+    width: 300px;
     gap:10px;
+    min-height: 400px; 
 }
 .card-4 h1{
     font: 22px Arial, Helvetica, sans-serif;
@@ -631,9 +703,14 @@ nav .menu-bar {
     text-align: center;
 }
 .shop-cards{
-    margin: 20px 0 100px 0;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+@media screen and (max-width: 768px) {
+    .shop-cards{
+        flex-direction: column;
+    }
 }
 .mag-safe-right-3{
     overflow: hidden;
@@ -877,6 +954,10 @@ nav .menu-bar {
     .apple-tv-music-btm-6{
         background: url(../img/gift_bg.jpg)center/contain no-repeat;
     }
+    hr.idk-lasttt{
+        height: 2px;
+        border: none;
+       }
 
 }
 
@@ -896,7 +977,7 @@ nav .menu-bar {
         height:75vh;
     }
      .mag-safe-height{
-        height:10vh;
+        height:30vh;
      }
     .container{
         width: 80%;
@@ -940,7 +1021,6 @@ nav .menu-bar {
     }
     .guided-tour-whole{
         position: static;
-        padding-top:450px;
     }
     .guided-tour-whole{
         display: flex;
@@ -973,9 +1053,7 @@ nav .menu-bar {
         padding-top: 30px;
         padding-bottom: 100px;
     }
-    .love-iphone-whole{
-        gap: 40px;
-    }
+   
     .card{
         width:300px;
     }
